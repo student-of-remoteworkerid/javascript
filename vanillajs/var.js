@@ -1,7 +1,7 @@
-let iceCream = 5;
+let iceCream = 5
 
-console.log(iceCream);
+console.log(iceCream)
 
-iceCream = 12;
+iceCream = 12
 
-console.log(iceCream);
+console.log(iceCream)
