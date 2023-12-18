@@ -11,6 +11,14 @@
         const nilai = 90
         let ucapan
 
+        if (nilai >= 75) {
+            ucapan = "Selamat Anda Lulus"
+        } else {
+            ucapan = "Silahkan Coba Lagi"
+        }
+
+        document.writeln(`<p>${ucapan}</p>`)
+
         ucapan = nilai >= 75 ? "Selamat Anda Lulus" : "Silahkan Coba Lagi"
 
         document.writeln(`<p>${ucapan}</p>`)
