@@ -35,6 +35,15 @@
         // 5 * 4 * 3 * 2 * factorialRecursive(1)
         // 5 * 4 * 3 * 2 * 1
 
+        function loopRecursive(angka) {
+            if (angka <= 10) {
+                console.info(angka)
+                loopRecursive(angka + 1)
+            }
+        }
+
+        loopRecursive(1)
+
     </script>
 </body>
 </html>
